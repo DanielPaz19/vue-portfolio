@@ -4,7 +4,7 @@
     :class="{ 'scale-0': props.openMenu === false }"
   >
     <ul
-      class="text-light flex flex-col md:flex-row gap-1 md:gap-5 pl-5 md:justify-end md:items-center"
+      class="text-light text-lg flex flex-col md:flex-row gap-1 md:gap-5 pl-5 md:justify-end md:items-center"
     >
       <li class="hover:text-gray-500 font-extralight">
         <a href="#home">Home</a>

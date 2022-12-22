@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container px-1 mx-auto h-full text-6xl md:text-7xl mt-28 md:mt-52"
+    class="container px-3 mx-auto h-full text-6xl md:text-7xl mt-28 md:mt-52"
     id="home"
   >
     <h1 class="text-light text-center font-bold">
