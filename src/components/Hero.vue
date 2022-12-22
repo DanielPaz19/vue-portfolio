@@ -1,16 +1,19 @@
 <template>
-  <div class="container mx-auto h-96 text-7xl mt-20" id="home">
+  <div
+    class="container mx-auto h-full text-6xl md:text-7xl mt-28 md:mt-52"
+    id="home"
+  >
     <h1 class="text-light text-center font-bold">
       Full Stack <br /><span class="text-blue-500"> Web Developer </span>
     </h1>
-    <p class="text-light text-xl font-light text-center max-w-md mx-auto mt-5">
+    <p class="text-light text-xl font-light text-center max-w-md mx-auto mt-8">
       Hi! I'm <strong class="text-blue-400">DANIELLE PAZ</strong> an experienced
       developer.
     </p>
-    <div class="px-8 mt-10 flex flex-col gap-4 md:flex-row md:justify-center">
+    <div class="px-8 mt-16 flex flex-col gap-4 md:flex-row md:justify-center">
       <Button
+        color="red"
         href="#contact"
-        color="blue"
         title="Hire Me"
         class="w-full md:w-auto"
       />

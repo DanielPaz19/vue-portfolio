@@ -1,7 +1,6 @@
 <template>
   <a
-    :class="`border-${props.color}-500`"
-    class="group relative inline-flex border focus:outline-none md:w-full"
+    class="group relative inline-flex border border-blue-500 focus:outline-none"
     :href="props.href"
   >
     <span
@@ -13,5 +12,9 @@
 </template>
 
 <script setup>
-const props = defineProps(["href", "title", "color"]);
+const props = defineProps({
+  href: String,
+  color: String,
+  title: String,
+});
 </script>

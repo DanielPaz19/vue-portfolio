@@ -1,11 +1,11 @@
 <template>
   <div class="container mx-auto h-96">
     <div
-      class="md:container md:mx-auto md:fixed md:top-0 md:left-0 md:right-0 md:px-5"
+      class="md:max-w-7xl md:container md:mx-auto md:fixed md:top-0 md:left-0 md:right-0 md:px-5"
     >
       <Navbar />
-      <Hero />
     </div>
+    <Hero />
   </div>
 </template>
 
