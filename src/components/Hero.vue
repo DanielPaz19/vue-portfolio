@@ -15,7 +15,6 @@
         class="w-full md:w-auto"
       />
       <ButtonOutline
-        href="#download"
         title="Download Resume"
         color="blue"
         class="w-full md:w-auto"
